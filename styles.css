@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.sidebar {
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 0px 5px 1px rgba(0, 0, 0, 0.1) ;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: px;
+    margin-right: 30px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 60px;
+}
+
+.mainlinks {
+    display: flex;
+margin-top: 30px;}
+
+
+    i {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        left: 20px;
+        position: relative;
+    }
+
+    li {
+        display: flex;
+        position: relative;
+        left: 50px;
+        font-size:larger
+    }
+
+
+    .logo > img {
+        width: 100px;
+
+    }
+
+    .main-content {
+        margin-left: 300px;
+       
+        height: 100%;
+        padding: 20px 25px;
+        box-sizing: border-box;
+    }
+
+    .header {
+      margin-left: 300px;
+      display: grid;
+       grid-template-columns: 3fr 2fr;
+       grid-template-rows: .5fr 1fr;
+       padding: 10px 60px;
+       box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.1) ;
+    }
+
+
+        
+    
+.searchbar {
+    display: flex;
+    
+    align-items: center;
+    padding: 0%;
+    
+}
+
+#search-field {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.164);
+    font-size: large;
+    color: gray;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 250px;
+}
+.profile > .bell {
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.jotchua{
+    border: none;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.hi-there{
+    font-size: x-large;
+}
+
+.small {
+    font-size: medium;
+}
+
+.headerbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 250px;
+
+}
+
+.header-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.profile > img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile > p {
+    font-size: large;
+    font-weight: 800;
+}
+
+.searchbar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
